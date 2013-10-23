@@ -67,12 +67,13 @@ li {
 .main-pos {
   margin-left: 2em !important;
   z-index: 3000; 
+  box-shadow: 10px 10px 5px #555555;
   
   /*background-image: url('http://dl.dropbox.com/u/32649907/imgs/shadow.png');*/
 }
 
 .left-pos {
-  opacity: .3;
+  /*opacity: .3;*/
   margin-left: -17em !important;
   z-index: 1000;
   -o-transform:none;
@@ -80,20 +81,25 @@ li {
   -webkit-transform: scale(.75);
   -moz-transform: scale(.75);
   transform: scale(.75);
+  box-shadow: 10px 10px 5px #555555;
 }
 
 .back-pos {
   margin-left: 2em !important;
-  opacity: .05;
+  /*opacity: .05; */
   -o-transform:none;
   -ms-transform:none;
   -webkit-transform: scale(.5);
   -moz-transform: scale(.5);
   transform: scale(.5);
+  position: absolute;
+  top:-250px;
+  left:100px;
+  box-shadow: 10px 10px 5px #555555;
 }
 
 .right-pos {
-  opacity: .3;
+  /*opacity: .3;*/
   margin-left:  21em !important;
   z-index: 1000;
   -o-transform:none;
@@ -101,6 +107,7 @@ li {
   -webkit-transform: scale(.75);
   -moz-transform: scale(.75);
   transform: scale(.75);
+  box-shadow: 10px 10px 5px #555555;
 }
 
 .Links {
