@@ -1,0 +1,145 @@
+html {
+  background: linear-gradient(to bottom, #d8d8d8, #336699);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  position:absolute;
+  top:1px;
+  right:390px;
+  padding:0px;
+}
+
+h2 {
+  position:absolute;
+  top:150px;
+  right:5px;
+}
+h3 {
+  position:absolute;
+  top:400px;
+  left:80px;
+
+}
+
+.PersonalBlurb
+{
+  position:absolute;
+  top:410px;
+  left:450px;
+  right:250px;
+
+}
+
+.Hobbies
+{
+  position:absolute;
+  top:540px;
+  left:450px;
+}
+
+section {
+  width: 40em;
+  height: 25em;
+  margin: 0 auto;
+  position:absolute;
+  top: 760px;
+  left:600px;
+}
+
+li {
+
+  background: #333;
+  display: inline-block;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  overflow: hidden;
+}
+ .items {
+  
+  position:absolute;
+}
+
+
+
+.main-pos {
+  margin-left: 2em !important;
+  z-index: 3000; 
+  
+  /*background-image: url('http://dl.dropbox.com/u/32649907/imgs/shadow.png');*/
+}
+
+.left-pos {
+  opacity: .3;
+  margin-left: -17em !important;
+  z-index: 1000;
+  -o-transform:none;
+  -ms-transform:none;
+  -webkit-transform: scale(.75);
+  -moz-transform: scale(.75);
+  transform: scale(.75);
+}
+
+.back-pos {
+  margin-left: 2em !important;
+  opacity: .05;
+  -o-transform:none;
+  -ms-transform:none;
+  -webkit-transform: scale(.5);
+  -moz-transform: scale(.5);
+  transform: scale(.5);
+}
+
+.right-pos {
+  opacity: .3;
+  margin-left:  21em !important;
+  z-index: 1000;
+  -o-transform:none;
+  -ms-transform:none;
+  -webkit-transform: scale(.75);
+  -moz-transform: scale(.75);
+  transform: scale(.75);
+}
+
+.Links {
+  position:absolute;
+  right:120px;
+  top:380px;
+  padding:8px;
+  border-color:#525252;
+  border-style:outset;
+  border-width: 2px;
+}
+.Links a {
+  display:inline;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:7px;
+  padding-bottom: 7px;
+  background:#fff;
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
+  border-radius:20px;
+
+
+  font-size:14px;
+  text-decoration:none;
+  color:#0D30A3;
+  position:relative;top: -2px;
+
+  text-shadow: 0.2em 0.2em 0.1em #7B8583;
+
+  
+}
+
+a:link { color:#0D30A3;}
+a:visited {filter:none;}
+a:active {filter:none;}
+a:hover {
+  color:#61AACF;
+  text-shadow: 0.2em 0.2em 0.1em #847A7C;
+   
+}
+
